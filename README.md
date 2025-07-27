@@ -49,14 +49,27 @@ project is not hosted
 - Orders are placed and matched within milliseconds using gRPC.
 - Designed to simulate real-world exchange performance.
 
+### ⏱️ Auto Game Scheduling  
+- Automatically schedules **matches** at regular intervals using Spring Boot Scheduled tasks.  
+- Publishes MatchCreateEvent and MatchCompleteEvent to **Kafka** for downstream processing.
+
 ## HLD
-<img width="1150" height="812" alt="image" src="https://github.com/user-attachments/assets/82240b77-df8d-43bc-8c01-e650f33780cb" />
+<img width="1374" height="537" alt="image" src="https://github.com/user-attachments/assets/69b1694b-487c-42c5-84ed-5382d38f09ab" />
+
+
 
 ### Betting flow
-<img width="1644" height="620" alt="image" src="https://github.com/user-attachments/assets/7e7f47b1-2c81-4c39-b23c-33840e049fee" />
+<img width="1374" height="510" alt="image" src="https://github.com/user-attachments/assets/e355e055-97c7-4f6d-8386-136ae1abc079" />
 
-### Saga flow 
-<img width="1644" height="620" alt="image" src="https://github.com/user-attachments/assets/8cf6f7f4-f0e1-4a1b-882e-30070284ee37" />
+
+### Bet Settlement
+<img width="1374" height="441" alt="image" src="https://github.com/user-attachments/assets/a6f1ebb3-4d3a-4dc0-803d-ede1c578475b" />
+
+
+### Creating Matches 
+<img width="1431" height="466" alt="image" src="https://github.com/user-attachments/assets/0041d154-404e-4f23-9e71-046e414f9cfe" />
+
+
 
 - **API Gateway** – Entry point for all requests  
 - **Auth Service** – JWT-based login and user roles (via Keycloak)  
@@ -65,6 +78,7 @@ project is not hosted
 - **Order-Book Service** – Go-based matching engine  
 - **Kafka** – Event streaming & decoupling  
 - **Saga Orchestration** – Ensures flow reliability via gRPC
+- **Match service** - auto schedules matches certain intervals
    
 
 

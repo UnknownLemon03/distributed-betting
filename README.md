@@ -16,7 +16,7 @@ project is not hosted
 - **Databases**: PostgreSQL
 - **API Protocol**: gRPC,HTTP
 - **Authentication**: JWT (Keyclock)
-- **Others**: Docker, Kubernetes (planned)
+- **Others**: Docker
 
 
 

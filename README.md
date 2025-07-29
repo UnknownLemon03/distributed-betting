@@ -54,8 +54,7 @@ project is not hosted
 - Publishes MatchCreateEvent and MatchCompleteEvent to **Kafka** for downstream processing.
 
 ## HLD
-<img width="1374" height="537" alt="image" src="https://github.com/user-attachments/assets/69b1694b-487c-42c5-84ed-5382d38f09ab" />
-
+<img width="1164" height="503" alt="image" src="https://github.com/user-attachments/assets/d36d0554-da7a-41b5-aa16-7550db9f9d4a" />
 
 
 ### Betting flow

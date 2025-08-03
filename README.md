@@ -9,8 +9,7 @@ project is not hosted
 ## 🧰 Tech Stack
 
 - **Languages**: Go, Java
-- **Backend Frameworks**: Spring Boot (Java), gRPC (Java + Go)  
-- **Frontend**: Next.js (in progress)  
+- **Backend Frameworks**: Spring Boot (Java), gRPC (Java + Go)   
 - **Message Broker**: Apache Kafka  
 - **Patterns**: Saga Pattern
 - **Databases**: PostgreSQL
